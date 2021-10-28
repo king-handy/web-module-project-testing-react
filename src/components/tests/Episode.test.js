@@ -14,6 +14,7 @@ const testEpisode = {
 
 const testEpisodeWithoutImage = {
     //Add in approprate test data structure here.
+    
 }
 
 test("renders without error", () => {
