@@ -8,19 +8,27 @@ const testShow = {
     //add in approprate test data structure here.
 }
 
-test('renders testShow and no selected Season without errors', ()=>{
+test('renders testShow and no selected Season without errors', () => {
+    const {queryByLabel} = render(<Show />);
+    const season = screen.queryByLabel(/seasons/);
+    console.log(season);
+    expect(season).toBeCalled();
 });
 
 test('renders Loading component when prop show is null', () => {
+    
 });
 
-test('renders same number of options seasons are passed in', ()=>{
+test('renders same number of options seasons are passed in', () => {
+
 });
 
 test('handleSelect is called when an season is selected', () => {
+
 });
 
 test('component renders when no seasons are selected and when rerenders with a season passed in', () => {
+
 });
 
 //Tasks:

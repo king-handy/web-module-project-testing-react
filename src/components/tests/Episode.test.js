@@ -14,10 +14,11 @@ const testEpisode = {
 
 const testEpisodeWithoutImage = {
     //Add in approprate test data structure here.
+    
 }
 
 test("renders without error", () => {
-
+    render(<Episode />);
 });
 
 test("renders the summury test passed as prop", ()=>{
